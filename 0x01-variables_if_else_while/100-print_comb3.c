@@ -5,23 +5,27 @@
  */
 int main(void)
 {
-	int n, m;
+	int firstNum, secondNum;
 
-	for (n = 48; n <= 56; n++)
+	firstNum = 48;
+	while (firstNum <= 56)
 	{
-		for (m = 49; m <= 57; n++)
+		secondNum = 49;
+		while (secondNum <= 57)
 		{
-			if (m > n)
+			if (firstNum < secondNum)
 			{
-				putchar(n);
-				putchar(m);
-				if (n != 56 || m != 57)
+				putchar(firstNum);
+				putchar(secondNum);
+				if (firstNum != 56 || secondNum != 57)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
+			secondNum++;
 		}
+		firstNum++;
 	}
 	putchar('\n');
 	return (0);
