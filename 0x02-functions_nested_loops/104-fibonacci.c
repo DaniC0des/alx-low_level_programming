@@ -4,7 +4,7 @@
  * main - finds and prints the first 98 fibonacci numbers
  * starting with 1 and 2
  * followed by a new line
- * Returne: 0
+ * Return: 0
  */
 int main(void)
 {
