@@ -14,5 +14,5 @@ int print_last_digit(int n)
 		nv = n % 10;
 
 	_putchar(nv + '0');
-	retuen (nv);
+	return (nv);
 }
