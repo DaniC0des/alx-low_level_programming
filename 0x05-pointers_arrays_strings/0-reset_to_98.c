@@ -5,7 +5,6 @@
  * and updates the value it points to to 98
  * @n: integer to be modified
  */
-
 void reset_to_98(int *n);
 {
 	*n = 98;
